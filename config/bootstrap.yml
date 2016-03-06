@@ -7,7 +7,7 @@ sources:
 
   url:
     - name: playbook.yml
-      url: https://db.tt/VcyI9dvr
+      url: https://github.com/kevinpotgieter/ansible-osx/tree/master/config/playbook.yml
 
   git:
     - name: 'osx'
