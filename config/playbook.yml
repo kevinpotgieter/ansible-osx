@@ -40,6 +40,11 @@
           - brew-cask
           - neo4j
 
+    - name: install apps from hombrew-cask
+      sudo: false
+      homebrew_cask: name={{item}} state=present
+      with_items:
+	 - alfred
 
     # requires node/npm from above
     - name: install global apps from npm

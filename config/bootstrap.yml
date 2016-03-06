@@ -14,7 +14,6 @@ sources:
       repo: 'https://github.com/kevinpotgieter/ansible-osx'
       playbooks:
          - homebrew.yml                 #must come before any use of homebrew module
-         - cask.yml
          - vagrant.yml
          - virtualbox.yml
          - alfred.yml
